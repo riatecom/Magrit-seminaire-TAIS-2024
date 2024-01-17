@@ -1,0 +1,120 @@
+:root {
+    --r-main-font-size: 35px;
+}
+
+body {
+    --slide-width: 1100px !important;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('./Dosis-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+#title-slide {
+    top: 95px !important;
+}
+
+#title-slide a[href^="mailto:"] {
+    color: #107895;
+}
+
+#title-slide .subtitle {
+    font-size: 1.5rem;
+}
+
+#title-slide h1 {
+    margin-bottom: 2rem;
+}
+
+.very-small {
+    font-size: 0.4em;
+}
+
+.small {
+    font-size: 0.6em;
+}
+
+.midly-small {
+    font-size: 0.7em;
+}
+
+.medium {
+    font-size: 0.8em;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.center {
+    text-align: center;
+}
+
+kbd {
+    padding: 2px 4px;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+.bordered {
+    border: 1px solid #333;
+}
+
+.w300 {
+    display: inline-block !important;
+    width: 300px !important;
+    height: auto !important;
+}
+
+.w400 {
+    display: inline-block !important;
+    width: 400px !important;
+    height: auto !important;
+}
+
+.w500 {
+    display: inline-block !important;
+    width: 500px !important;
+    height: auto !important;
+}
+
+.w600 {
+    display: inline-block !important;
+    width: 600px !important;
+    height: auto !important;
+}
+
+.w700 {
+    display: inline-block !important;
+    width: 700px !important;
+    height: auto !important;
+}
+
+.w800 {
+    display: inline-block !important;
+    width: 800px !important;
+    height: auto !important;
+}
+
+.w900 {
+    display: inline-block !important;
+    width: 900px !important;
+    height: auto !important;
+}
+
+.w1000 {
+    display: inline-block !important;
+    width: 1000px !important;
+    height: auto !important;
+}
+
+.grViz {
+    overflow-y: hidden;
+}

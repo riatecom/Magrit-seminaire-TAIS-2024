@@ -1,0 +1,44 @@
+---
+title: "Cartographie thématique avec Magrit 🌍"
+author:
+  name: "Nicolas Lambert, Matthieu Viry (CNRS - UAR RIATE)"
+  email: "nicolas.lambert@cnrs.fr; matthieu.viry@cnrs.fr"
+subtitle: "23 janvier 2024 - EHESS, Paris"
+format:
+  revealjs:
+    embed-resources: false
+    slide-number: true
+    show-slide-number: all
+    chalkboard: true
+    logo: images/logos-footer.png
+    width: 1150
+    height: 740
+title-slide-attributes:
+  data-background-image: images/logos-footer.png
+  data-background-size: 42%
+  data-background-position: 50% 90%
+execute:
+  cache: true
+css: ['static/style.css']
+prefer-html: true
+lang: fr
+---
+
+
+# Plan de la séance 📝
+
+<br />
+
+1. Cartographie thématique et sémiologie graphique
+2. Présentation de l'application Magrit
+3. Démonstration et exercices pratiques
+
+# Introduction
+
+<center>
+<img src="images/Magrit-red-black-description.png">
+</center>
+
+# ...
+
+...
