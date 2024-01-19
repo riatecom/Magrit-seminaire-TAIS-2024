@@ -2,7 +2,7 @@
 title: "Cartographie thématique avec Magrit 🌍"
 author:
   name: "Nicolas Lambert, Matthieu Viry (CNRS - UAR RIATE)"
-  email: "nicolas.lambert@cnrs.fr; matthieu.viry@cnrs.fr"
+  email: "nicolas.lambert@cnrs.fr ; matthieu.viry@cnrs.fr"
 subtitle: "23 janvier 2024 - EHESS, Paris"
 format:
   revealjs:
@@ -31,7 +31,7 @@ lang: fr
 
 1. Cartographie thématique et sémiologie graphique
 2. Présentation de l'application Magrit
-3. Démonstration et exercices pratiques
+3. Démonstration et exercice pratique
 
 # Introduction
 
@@ -42,3 +42,340 @@ lang: fr
 # ...
 
 ...
+
+# Présentation de l'application Magrit
+
+## La genèse du projet Magrit
+
+<br />
+
+::::{.medium}
+
+:::{.fragment}
+- **Contexte** :
+  - l'enseignement de la cartographie thématique à l'université
+  - la réalisation de cartes thématiques par un public non-expert (débutants, chercheurs dans d'autres disciplines que la géographie, etc.)
+:::
+
+:::{.fragment}
+- Quels outils pour produire des cartes thématiques ? Quels outils pour enseigner la cartographie thématique ?
+:::
+
+:::{.fragment}
+- *PhilCarto*, *QGIS*, *InkScape* / *Adobe Illustrator* ?
+:::
+
+:::{.fragment}
+➔ En 2016, pas d'outils **simple**, **complet** et **multiplateforme**
+:::
+
+::::
+
+## La genèse du projet Magrit
+
+<br />
+
+:::{.medium}
+
+- Projet financé par l'UAR RIATE sur fonds propres, initié en 2016
+
+- Objectif : développer un outil de cartographie thématique simple d'utilisation, complet et utilisable sur tous les systèmes d'exploitation
+
+- Conçu en équipe (Nicolas Lambert, Timothée Giraud, Ronan Ysebaert, Matthieu Viry) et développé par Matthieu Viry
+
+:::
+
+
+## Un outil complet
+
+<center>
+
+![](images/magrit-complete-tool.png){.w700}
+
+</center>
+
+## Un logiciel libre et gratuit
+
+Le projet Magrit a démarré courant 2016. C'est un projet libre, sous licence CeCILL (une licence compatible avec la licence GPL).
+
+![](images/cecill.png){.w300}
+
+Le code source est disponible sur GitHub : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit).
+
+![](images/github-screenshot.png){.w600}
+
+
+## Une application Web
+
+Magrit est une application Web, c'est à dire qu'elle fonctionne **directement dans un navigateur Web** et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
+
+<center>
+![](images/ui-and-browser-screenshot.png){.w700}
+</center>
+
+## Une application multilingue
+
+<br />
+
+Magrit est disponible en **français**, **anglais** et **espagnol** (Amérique latine).
+
+<br />
+<center>
+![](images/magrit-multilang.png){.w300 .bordered}
+</center>
+
+## De nombreux formats de données supportés en entrée
+
+<br />
+
+::::{.columns .medium}
+
+:::{.column width=50%}
+
+Magrit permet d'importer des **données géographiques** dans de nombreux formats :
+
+- **GeoJSON**
+- **TopoJSON**
+- **Shapefile**
+- **GML**
+- **KML**
+- **GeoPackage**
+
+:::
+
+:::{.column width=50%}
+
+Magrit permet également d'importer des **données tabulaires** (qui pourront être jointes à des données géographiques) :
+
+- **CSV** / **TSV**
+- **XLS** et **XLSX**
+- **ODS**
+
+:::
+::::
+
+## La chaîne de traitement
+
+Les menus de l’application suivent les étapes d’une chaine de traitement de l’information géographique :
+
+<center>
+
+![](images/chaine-traitement-magrit.png){.bordered .w800}
+
+</center>
+
+## Différents types de représentations cartographiques
+
+<center>
+<img src="images/Magrit-red-black-description.png" class="w900">
+</center>
+
+## Des représentations cartographiques classiques
+
+<br />
+
+![](images/rep_class.png){.w1000}
+
+## Des représentations cartographiques combinées
+
+<br />
+
+![](images/rep_comb.png){.w800}
+
+## Des représentations cartographiques "avancées"
+
+<br />
+
+![](images/rep_av1.png){.w800}
+
+## Des représentations cartographiques "avancées"
+
+<br />
+
+![](images/rep_av2.png){.w800}
+
+[Également "carte de liens", "carte qualitative (pictogrammes)" et *"waffle map"* (2 variables de stocks ou plus)]{.fragment .medium}
+
+<img src="images/waffle_fontaines.png" class="fragment w800" style="position:absolute; top: 20%; left: 0%;"/>
+
+## Mise en page
+
+<center>
+
+![](images/mise-en-page.png){.w800 .bordered}
+
+</center>
+
+## Différents types d'exports disponibles
+
+<br />
+
+Magrit permet d'exporter les cartes réalisées dans différents formats :
+
+- **PNG** (par ex. pour une utilisation directe dans un rapport ou une présentation)
+- **SVG** (par ex. pour permettre une édition ultérieure dans un logiciel de dessin vectoriel comme InkScape ou Adobe Illustrator)
+
+<center>
+<img src="images/ExportModifInkscape.png" class="w500">
+</center>
+
+## Différents types d'exports disponibles
+
+<br />
+
+:::{.medium}
+
+Il est également possible d'exporter les couches présentes dans la carte dans différents formats :
+
+- **GeoJSON**
+- **TopoJSON**
+- **Shapefile**
+- **GML**
+- **KML**
+- **CSV** (seulement les données attributaires)
+
+<br />
+💡 Utile par exemple pour réutiliser les couches issues de certaines modes de représentation (lissages, discontinuités, cartogrammes, etc.) dans un SIG.
+
+:::
+
+## Utilisée pour l'apprentissage de la cartographie thématique à l'université
+
+<br /><br />
+
+<center>
+
+![](images/logo_univ.png){.w900}
+
+</center>
+
+
+## Autour de Magrit...
+
+- Magrit dispose d'une documentation complète en français : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/).
+
+![](images/documentation-screenshot.png){.absolute .bordered top=200 left=200 width="780" height="609"}
+
+## Autour de Magrit...
+
+- Des supports de formations (comprenant slides de cours et exercices), préparés par l'[UAR RIATE](https://riate.cnrs.fr), sont mis à disposition sous licence CC-BY-SA : [https://github.com/magrit-formations](https://github.com/magrit-formations).
+
+::::{.columns .medium}
+
+:::{.column width=50%}
+
+![](images/formation-screenshot-repository.png){.w400}
+
+:::
+
+:::{.column width=50%}
+
+![](images/formation-screenshot.png)
+
+[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exemple de support de formation ⤴]{.center .small}
+
+[⬅ Page d'accueil du dépôt des supports de formation]{.center .small}
+
+:::
+
+::::
+
+## Autour de Magrit...
+
+- Un carnet de recherche est également disponible sur la plateforme Hypotheses : [https://magrit.hypotheses.org/](https://magrit.hypotheses.org/).
+
+<center>
+
+![](images/hypotheses.png){.w800 .bordered}
+
+</center>
+
+## Perspectives de développement
+
+<br />
+
+Un logiciel en développement actif...
+
+<br />
+
+:::{.medium}
+
+- **Amélioration / refonte de l'interface utilisateur**
+
+- Intégration de **nouvelles fonctionnalités** (analyses statistiques bivariées ou multivariées, modification du jeu de données, personnalisation de nombreux éléments graphiques, etc.)
+
+- Facilitation de l'**installation sur un poste de travail personnel**
+
+:::
+
+<img src="images/linear-regression.png" class="bordered fragment w300" style="position:absolute;bottom: 10px; right: 610px" fragment-index=1>
+<img src="images/linear-regression-residuals.png" class="bordered fragment w300" style="position:absolute;bottom: 30px; right: 340px" fragment-index=1>
+<img src="images/tree-hc.png" class="bordered fragment w400" style="position:absolute;bottom: 60px; right: 10px" fragment-index=1>
+
+
+
+# Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
+
+## Démonstration
+
+<br />
+
+*Cette démonstration vise à présenter les principales fonctionnalités de Magrit, de la réalisation rapide d'une carte simple
+jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.*
+
+<br />
+
+<center>
+
+**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**  
+**🕜 Environ 15 minutes**
+
+</center>
+
+:::{.medium}
+
+<br />
+
+**Données utilisées :**
+
+- Quartiers de la ville de Paris
+- Données socio-démographiques issues du recensement de la population de 2016 (fichier tabulaire à joindre aux données géographiques)
+- Communes du Grand Paris (pour l'habillage de la carte)
+- Tracé de la Seine (pour l'habillage de la carte)
+
+:::
+
+## À vous de jouer !
+
+<br />
+
+Pendant le temps restant, nous vous proposons de **réaliser une carte thématique avec Magrit**.
+
+Au choix :
+
+- Si vous disposez de vos propres données, vous pouvez essayer de les utiliser pour réaliser une carte.
+- Sinon, nous vous proposons de récupérer les données utilisées lors de la démonstration : [Mettre short url ici]()
+  et de réaliser une carte de xxx.
+
+
+# Merci de votre attention ! 🙏
+
+<br />
+
+**Application Magrit** : **[https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**
+
+**Documentation** : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/)
+
+**Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
+
+**Supports de formation** : [https://github.com/magrit-formations](https://github.com/magrit-formations)
+
+<br />
+
+**Slides** : [https://mthh.github.io/Magrit-seminaire-TAIS-2024/](https://mthh.github.io/Magrit-presentation-USSEIN-2023/)
+
+<br />
+
+_**Contact** : [nicolas.lambert@cnrs.fr](mailto:nicolas.lambert@cnrs.fr) et [matthieu.viry@cnrs.fr](mailto:matthieu.viry@cnrs.fr)_
+
+[UAR RIATE](https://riate.cnrs.fr) - CNRS
