@@ -334,7 +334,7 @@ Le fond de carte
 ##  { background-color="white" background-image="images/geoide.png" background-size="contain"}
 
 ::: footer
-Le géoîde correspond à la surface d'altitude zéro
+Le géoïde correspond à la surface d'altitude zéro
 :::
 
 ##  { background-color="white"}
@@ -342,7 +342,7 @@ Le géoîde correspond à la surface d'altitude zéro
 ![](images/ellipse.png)
 
 ::: footer
-L'ellipsoide est une approximation mathématique de la forme de la Terre.
+L'ellipsoïde est une approximation mathématique de la forme de la Terre.
 :::
 
 ##  { background-color="white"}
@@ -350,7 +350,7 @@ L'ellipsoide est une approximation mathématique de la forme de la Terre.
 ![](images/latlon.png)
 
 ::: footer
-C'est à partir de l'ellipsoide qu'on détermine les latitudes et longitudes
+C'est à partir de l'ellipsoïde qu'on détermine les latitudes et longitudes
 :::
 
 ##  { background-color="white" background-image="images/aspects_all.jpg" background-size="contain"}
@@ -404,7 +404,7 @@ Une carte est composée d'une image géographique et de ses habits cartographiqu
 ##  { background-color="white" background-image="images/II.14.ouvriers.png" background-size="contain"}
 
 ::: footer
-Elements obligatoires : **Titre**, **legende**, **source**, **années**...
+Élements obligatoires : **Titre**, **légende**, **source**, **années**...
 :::
 
 #
@@ -606,7 +606,7 @@ Le rouge c’est le feu, le sang, l’amour mais c’est aussi l’enfer. Le rou
 
 ##  { background-color="white" background-image="images/black.jpg" background-size="contain"}
 ::: footer
-Le noir. Fascisme, anarchisme, extremisme, terrorisme, deuil
+Le noir. Fascisme, anarchisme, extrémisme, terrorisme, deuil
 :::
 
 ##  { background-color="white" background-image="images/Dupin.png" background-size="contain"}
@@ -620,7 +620,7 @@ Noir et blanc
 ##  { background-color="white" background-image="images/taille1.png" background-size="contain"}
 
 ::: footer
-Le choix de la bonne taille dépend de la lisibité mais aussi du message que l'on souhaite délivrer
+Le choix de la bonne taille dépend de la lisibilité mais aussi du message que l'on souhaite délivrer
 :::
 
 ##  { background-color="white" background-image="images/manif5dec_flop.png" background-size="contain"}
@@ -754,7 +754,7 @@ Le monde vu par Philippe "Reka"
 
 ##  { background-color="white" background-image="images/espritcritique.jpg" background-size="contain"}
 
-Faites jouer votre esprit critique pour déméler ce qui relève du rationnel et de la rhétorique.
+Faites jouer votre esprit critique pour démêler ce qui relève du rationnel et de la rhétorique.
 
 
 ##  { background-color="#5D5D5D" background-image="images/spiderman.jpg" background-size="contain"}
@@ -781,6 +781,8 @@ Faites jouer votre esprit critique pour déméler ce qui relève du rationnel et
 - *PhilCarto*, *QGIS*, *InkScape* / *Adobe Illustrator* ?
 :::
 
+<br />
+
 :::{.fragment}
 ➔ En 2016, pas d'outils **simple**, **complet** et **multiplateforme**
 :::
@@ -793,11 +795,16 @@ Faites jouer votre esprit critique pour déméler ce qui relève du rationnel et
 
 :::{.medium}
 
-- Projet financé par l'UAR RIATE sur fonds propres, initié en 2016
 
-- Objectif : développer un outil de cartographie thématique simple d'utilisation, complet et utilisable sur tous les systèmes d'exploitation
+- **Objectif : développer un outil de cartographie thématique simple d'utilisation, complet et utilisable sur tous les systèmes d'exploitation**
+
+<br />
 
 - Conçu en équipe (Nicolas Lambert, Timothée Giraud, Ronan Ysebaert, Matthieu Viry) et développé par Matthieu Viry
+
+<br />
+
+- Projet financé par l'UAR RIATE sur fonds propres, initié en 2016 et **rendu public en 2017**
 
 :::
 
@@ -823,7 +830,7 @@ Le code source est disponible sur GitHub : [https://github.com/riatelab/magrit](
 
 ## Une application Web
 
-Magrit est une application Web, c'est à dire qu'elle fonctionne **directement dans un navigateur Web** et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
+Magrit est une application Web, c'est-à-dire qu'elle fonctionne **directement dans un navigateur Web** et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
 
 <center>
 ![](images/ui-and-browser-screenshot.png){.w700}
@@ -1006,15 +1013,13 @@ Il est également possible d'exporter les couches présentes dans la carte dans 
 
 </center>
 
-## Perspectives de développement
-
-<br />
-
-Un logiciel en développement actif...
-
-<br />
+## Perspectives de développement <br /> (aka "Magrit 2.0")
 
 :::{.medium}
+
+<br />
+
+Actuellement dans une phase de développement actif, Magrit va connaître dans les prochains mois une **évolution majeure** :
 
 - **Amélioration / refonte de l'interface utilisateur**
 
@@ -1022,15 +1027,17 @@ Un logiciel en développement actif...
 
 - Facilitation de l'**installation sur un poste de travail personnel**
 
+- **Pas de circulation des données sur le réseau**
+
 :::
 
-<img src="images/linear-regression.png" class="bordered fragment w300" style="position:absolute;bottom: 10px; right: 610px" fragment-index=1>
-<img src="images/linear-regression-residuals.png" class="bordered fragment w300" style="position:absolute;bottom: 30px; right: 340px" fragment-index=1>
-<img src="images/tree-hc.png" class="bordered fragment w400" style="position:absolute;bottom: 60px; right: 10px" fragment-index=1>
+<img src="images/linear-regression.png" class="bordered fragment w300" style="position:absolute;bottom: 0px; right: 630px" fragment-index=1>
+<img src="images/linear-regression-residuals.png" class="bordered fragment w300" style="position:absolute;bottom: 20px; right: 360px" fragment-index=1>
+<img src="images/tree-hc.png" class="bordered fragment w400" style="position:absolute;bottom: 40px; right: -5px" fragment-index=1>
 
 
 
-# 3 - Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
+# Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
 
 ## Démonstration
 
@@ -1043,8 +1050,7 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 
 <center>
 
-**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**  
-**🕜 Environ 15 minutes**
+**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)** - **🕜 Environ 15 minutes**
 
 </center>
 
@@ -1066,6 +1072,8 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 <br />
 
 Pendant le temps restant, nous vous proposons de **réaliser une carte thématique avec Magrit**.
+
+<br />
 
 Au choix :
 
