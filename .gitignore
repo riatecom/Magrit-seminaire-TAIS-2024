@@ -3,3 +3,4 @@ dist/
 index_files/
 index_cache/
 .idea/
+.Rhistory
