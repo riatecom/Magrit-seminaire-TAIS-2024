@@ -336,7 +336,7 @@
 Nicolas Lambert, Matthieu Viry (CNRS - UAR RIATE) 
 </div>
 <div class="quarto-title-author-email">
-<a href="mailto:nicolas.lambert@cnrs.fr; matthieu.viry@cnrs.fr">nicolas.lambert@cnrs.fr; matthieu.viry@cnrs.fr</a>
+<a href="mailto:nicolas.lambert@cnrs.fr ; matthieu.viry@cnrs.fr">nicolas.lambert@cnrs.fr ; matthieu.viry@cnrs.fr</a>
 </div>
 </div>
 </div>
@@ -348,7 +348,7 @@ Nicolas Lambert, Matthieu Viry (CNRS - UAR RIATE)
 <ol type="1">
 <li>Cartographie thématique et sémiologie graphique</li>
 <li>Présentation de l’application Magrit</li>
-<li>Démonstration et exercices pratiques</li>
+<li>Démonstration et exercice pratique</li>
 </ol>
 </section>
 
@@ -359,9 +359,1054 @@ Nicolas Lambert, Matthieu Viry (CNRS - UAR RIATE)
 </center>
 </section>
 
+<section id="cartographie-thématique" class="title-slide slide level1 center">
+<h1>1 <br> Cartographie thématique</h1>
+<p><br><img src="images/thumb_time.png" style="border:none; width:120px"> <img src="images/thumb_semio.png" style="border:none; width:120px"> <img src="images/thumb_basemap.png" style="border:none; width:120px"> <img src="images/thumb_layout.png" style="border:none; width:120px"> <img src="images/thumb_lie.png" style="border:none; width:120px"></p>
+</section>
+
+<section>
 <section id="section" class="title-slide slide level1 center">
-<h1>…</h1>
-<p>…</p>
+<h1></h1>
+<p>Un peu d’histoire… <br><img src="images/thumb_time.png" style="border:none; width:300px"></p>
+</section>
+<section id="section-1" class="slide level2" data-background-color="white" data-background-image="images/Bedolina.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><strong>“Cadastre” de Bedolina</strong> (découverte en en Italie du nord) 2000 ans av.n.è. J.-C. Quatre périodes au moins de gravure se superposent, et cette mystérieuse topographie apparaît sur la deuxième couche, voisinant avec des représentations de cervidés. S’il s’agit bien d’un premier vocabulaire topographique, nous ne savons pas le lire.</p>
+</div>
+</section>
+<section id="section-2" class="slide level2" data-background-color="white" data-background-image="images/mattangs.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Ces <strong>cartes polynésiennes</strong> appelées Rebbelibs, Medosou ou Mattangs représentants les courants marins et la direction de la houle qui est perturbée par la présence des îles avec des batons de bois courbés, les coquillages représentants la position des îles. Elle datent de 1000 av.n.è.</p>
+</div>
+</section>
+<section id="section-3" class="slide level2" data-background-color="white" data-background-image="images/ptolemee.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La Géographie de Ptolémée (vers 200)</p>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-background-color="white" data-background-image="images/TO.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Au moyen-âge, les cartes T dans l’O</p>
+</div>
+</section>
+<section id="section-5" class="slide level2" data-background-color="white" data-background-image="images/idrisi.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La géographie arabe (Al Idrisi, 1154)</p>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-background-color="white" data-background-image="images/kangnido.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>la carte Kangnido (Corée, 1402)</p>
+</div>
+</section>
+<section id="section-7" class="slide level2" data-background-color="white" data-background-image="images/waldesmuller.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Les grandes découvertes (Waldseemüller, en 1507)</p>
+</div>
+</section>
+<section id="section-8" class="slide level2" data-background-color="white" data-background-image="images/osm.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>OpenStreetMap (Aujourd’hui)</p>
+</div>
+</section>
+<section id="section-9" class="slide level2" data-background-color="white" data-background-image="images/oresme.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><strong>Nicole Oresme</strong> (1370) est un des premiers à concevoir le principe et l’utilité des coordonnées cartésiennes pour la représentation graphique de phénomènes quantitatifs</p>
+</div>
+</section>
+<section id="section-10" class="slide level2" data-background-color="white" data-background-image="images/Playfair1.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Commercial and Political Atlas. William Playfair (1786)</p>
+</div>
+</section>
+<section id="section-11" class="slide level2" data-background-color="white" data-background-image="images/Playfair2.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Commercial and Political Atlas. William Playfair (1786)</p>
+</div>
+</section>
+<section id="section-12" class="slide level2" data-background-color="white" data-background-image="images/Playfair3.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Commercial and Political Atlas. William Playfair (1786)</p>
+</div>
+</section>
+<section id="section-13" class="slide level2" data-background-color="white" data-background-image="images/Nightingale.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army. Florence Nightingale (1857)</p>
+</div>
+</section>
+<section id="section-14" class="slide level2" data-background-color="white" data-background-image="images/Dupin.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La première carte thématique de l’histoire (Charles Dupin, 1826)</p>
+</div>
+</section>
+<section id="section-15" class="slide level2" data-background-color="white" data-background-image="images/Montizon.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La carte par points d’A. Frère de Montizon (1830)</p>
+</div>
+</section>
+<section id="section-16" class="slide level2" data-background-color="white" data-background-image="images/Cheysson.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La mushroom map d’Emile Cheysson (1886)</p>
+</div>
+</section>
+<section id="section-17" class="slide level2" data-background-color="white" data-background-image="images/Minardbandes.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Charles Joseph Minard (1862)</p>
+</div>
+</section>
+<section id="section-18" class="slide level2" data-background-color="white" data-background-image="images/Minard.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Carte Figurative des pertes successives en hommes de l’armée française dans la campagne de Russie 1812–1813.<br>Charles Joseph Minard (1869). Le <b>GOLD STANDARD</b> de la dataviz. Minard représente en 1869 les pertes colossales de l’armée française dans la campagne de Russie au début du XIXe siècle. Cette fameuse « carte figurative » raconte l’histoire de cette armée, qui arrive à Moscou avec moins d’un quart de son effectif de départ, avant de se faire à nouveau décimer sur le voyage du retour.</p>
+</div>
+</section>
+<section id="section-19" class="slide level2" data-background-color="white" data-background-image="images/Semio.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Bertin Jacques, Sémiologie graphique, Paris, Mouton/Gauthier-Villars, 1967</p>
+</div>
+</section></section>
+<section>
+<section id="section-20" class="title-slide slide level1 center">
+<h1></h1>
+<p>La sémiologie graphique <br><img src="images/thumb_semio.png" style="border:none; width:300px"></p>
+</section>
+<section id="section-21" class="slide level2" data-background-color="white">
+<h2></h2>
+<p>Les <strong>variables visuelles</strong> (ou variables rétiniennes) sont les moyens graphiques pour retranscrire visuellement un information</p>
+
+<img src="images/semio.png" style="border:none" class="r-stretch"><ul>
+<li><strong>Un principe</strong> : faciliter la vie du lecteur de carte (comprehension en un temps minimum de perception ; visée universelle)</li>
+<li><strong>Une règle</strong> : Le type de donnée détermine les choix graphiques !</li>
+</ul>
+</section></section>
+<section id="section-22" class="title-slide slide level1 center" data-background-color="white">
+<h1></h1>
+
+<img src="images/join.png" style="border:none" class="r-stretch"></section>
+
+<section id="section-23" class="title-slide slide level1 center" data-background-color="white">
+<h1></h1>
+
+<img src="images/catégories-de-VV.png" style="border:none" class="r-stretch"></section>
+
+<section>
+<section id="section-24" class="title-slide slide level1 center">
+<h1></h1>
+<p>Les 7 variables visuelles</p>
+</section>
+<section id="section-25" class="slide level2" data-background-color="white" data-background-image="images/americains.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_taille.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-26" class="slide level2" data-background-color="white" data-background-image="images/petrole.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_taille.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-27" class="slide level2" data-background-color="white" data-background-image="images/butte.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_taille.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-28" class="slide level2" data-background-color="white" data-background-image="images/foot.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_taille.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-29" class="slide level2" data-background-color="white" data-background-image="images/fer.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_valeur.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-30" class="slide level2" data-background-color="white" data-background-image="images/feminisme.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_valeur.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-31" class="slide level2" data-background-color="white" data-background-image="images/discretisation.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_valeur.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-32" class="slide level2" data-background-color="white" data-background-image="images/drive.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_couleur.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-33" class="slide level2" data-background-color="white" data-background-image="images/civilisation.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_couleur.png" style="border:none"></p>
+</div>
+</section></section>
+<section>
+<section id="section-34" class="title-slide slide level1 center">
+<h1></h1>
+<p><img src="images/forme.png" style="border:none"></p>
+<div class="footer">
+<p><img src="images/vv_forme.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-35" class="slide level2" data-background-color="white" data-background-image="images/hollywood.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p><img src="images/vv_forme.png" style="border:none"></p>
+</div>
+</section></section>
+<section id="section-36" class="title-slide slide level1 center">
+<h1></h1>
+<p><img src="images/orientation.png" style="border:none"></p>
+<div class="footer">
+<p><img src="images/vv_orientation.png" style="border:none"></p>
+</div>
+</section>
+
+<section id="section-37" class="title-slide slide level1 center">
+<h1></h1>
+<p><img src="images/grain.png" style="border:none"></p>
+<div class="footer">
+<p><img src="images/vv_grain.png" style="border:none"></p>
+</div>
+</section>
+
+<section id="section-38" class="title-slide slide level1 center">
+<h1></h1>
+<p><img src="images/texture_diff.png" style="border:none"> <img src="images/texture_ordre.png" style="border:none"></p>
+<div class="footer">
+<p><img src="images/vv_texture.png" style="border:none"></p>
+</div>
+</section>
+
+<section id="section-39" class="title-slide slide level1 center">
+<h1></h1>
+<p><img src="images/poncifs.png" style="border:none">&gt;</p>
+<div class="footer">
+<p><img src="images/vv_texture.png" style="border:none"></p>
+</div>
+</section>
+
+<section>
+<section id="section-40" class="title-slide slide level1 center">
+<h1></h1>
+
+<img src="images/efficacite.png" style="border:none" class="r-stretch"><div class="footer">
+<p>Toutes les variables visuelles n’ont pas la même efficacité</p>
+</div>
+</section>
+<section id="en-résumé" class="slide level2">
+<h2>En résumé</h2>
+
+<img src="images/VV_et_categories.png" style="border:none" class="r-stretch"></section>
+<section id="différenciation" class="slide level2">
+<h2>Différenciation</h2>
+
+<img src="images/quali.jpeg" style="border:none" class="r-stretch"></section>
+<section id="ordre" class="slide level2">
+<h2>Ordre</h2>
+
+<img src="images/choro.png" style="border:none" class="r-stretch"></section>
+<section id="proportionnalité" class="slide level2">
+<h2>Proportionnalité</h2>
+
+<img src="images/size.png" style="border:none" class="r-stretch"></section>
+<section id="la-règle-dor" class="slide level2">
+<h2>La règle d’or !</h2>
+<p>Pas de stock en aplats !</p>
+<div class="columns">
+<div class="column" style="width:49%;">
+<p><img src="images/fail.png" style="border:none"></p>
+</div><div class="column" style="width:49%;">
+<p><img src="images/success.png" style="border:none"></p>
+</div>
+</div>
+</section></section>
+<section>
+<section id="section-41" class="title-slide slide level1 center">
+<h1></h1>
+<p>Le fond de carte <br><img src="images/thumb_basemap.png" style="border:none; width:300px"></p>
+</section>
+<section id="section-42" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/orange2.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>“La Terre est bleue comme une Orange” (Paul Eluard)</p>
+</div>
+</section>
+<section id="section-43" class="slide level2" data-background-color="white" data-background-image="images/geoide.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le géoîde correspond à la surface d’altitude zéro</p>
+</div>
+</section>
+<section id="section-44" class="slide level2" data-background-color="white">
+<h2></h2>
+
+<img data-src="images/ellipse.png" class="r-stretch"><div class="footer">
+<p>L’ellipsoide est une approximation mathématique de la forme de la Terre.</p>
+</div>
+</section>
+<section id="section-45" class="slide level2" data-background-color="white">
+<h2></h2>
+
+<img data-src="images/latlon.png" class="r-stretch"><div class="footer">
+<p>C’est à partir de l’ellipsoide qu’on détermine les latitudes et longitudes</p>
+</div>
+</section>
+<section id="section-46" class="slide level2" data-background-color="white" data-background-image="images/aspects_all.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Mettre à plat</p>
+</div>
+</section></section>
+<section id="section-47" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/projections_2.png" class="r-stretch"><div class="footer">
+<p>Trois exemples de projections cartographiques</p>
+</div>
+</section>
+
+<section id="section-48" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/emprise.png" class="r-stretch"><div class="footer">
+<p>On représente souvent uniquement une portion de l’espace géographique…</p>
+</div>
+</section>
+
+<section id="section-49" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/nuts.jpg" class="r-stretch"><div class="footer">
+<p>…dans un maillage donné</p>
+</div>
+</section>
+
+<section id="section-50" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/generalisation.png" class="r-stretch"><div class="footer">
+<p>…et un niveau de généralisation</p>
+</div>
+</section>
+
+<section id="section-51" class="title-slide slide level1 center">
+<h1></h1>
+<p>Habillage et mise en page <br><img src="images/thumb_layout.png" style="border:none; width:300px"></p>
+</section>
+
+<section>
+<section id="section-52" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/habillage.png" class="r-stretch"><div class="footer">
+<p>Une carte est composée d’une image géographique et de ses habits cartographiques</p>
+</div>
+</section>
+<section id="section-53" class="slide level2" data-background-color="white" data-background-image="images/II.14.ouvriers.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Elements obligatoires : <strong>Titre</strong>, <strong>legende</strong>, <strong>source</strong>, <strong>années</strong>…</p>
+</div>
+</section></section>
+<section>
+<section id="section-54" class="title-slide slide level1 center">
+<h1></h1>
+
+<img src="images/habillage_pb.png" style="border:none; width:700px" class="r-stretch"><div class="footer">
+<p>D’autres éléments sont facultatifs, voir problématiques : <strong>Orientation</strong>, <strong>échelle</strong>, <strong>carton</strong>, <strong>cartouche</strong>, <strong>graticule</strong>, <strong>toponymes</strong>…</p>
+</div>
+</section>
+<section id="section-55" class="slide level2" data-background-color="white" data-background-image="images/theatre.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La mise en scène cartographique</p>
+</div>
+</section></section>
+<section id="section-56" class="title-slide slide level1 center">
+<h1></h1>
+<p>Ce qui se cache derrière les cartes <br><img src="images/thumb_lie.png" style="border:none; width:300px"></p>
+</section>
+
+<section>
+<section id="section-57" class="title-slide slide level1 center">
+<h1></h1>
+<p><br><img src="images/harley.png" style="border:none; width:700px"></p>
+<div class="footer">
+<p>Harley, J. B. (1989). Deconstructing the map. Cartographica: The international journal for geographic information and geovisualization, 26(2), 1-20.</p>
+</div>
+</section>
+<section id="section-58" class="slide level2" data-background-color="white" data-background-image="images/merc.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La projection de Mercator (projection conforme)</p>
+</div>
+</section>
+<section id="section-59" class="slide level2" data-background-color="white" data-background-image="images/merc1.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La projection de Mercator</p>
+</div>
+</section>
+<section id="section-60" class="slide level2" data-background-color="white" data-background-image="images/merc2.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La projection de Mercator</p>
+</div>
+</section>
+<section id="section-61" class="slide level2" data-background-color="white" data-background-image="images/merc3.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La projection de Mercator</p>
+</div>
+</section>
+<section id="section-62" class="slide level2" data-background-color="white" data-background-image="images/I.07.peters.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-63" class="slide level2" data-background-color="white" data-background-image="images/westwing1.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-64" class="slide level2" data-background-color="white" data-background-image="images/reclusc.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-65" class="slide level2" data-background-color="white" data-background-image="images/reclusc2.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-66" class="slide level2" data-background-color="white" data-background-image="images/173.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>La question de la projection pose aussi la question du centre</p>
+</div>
+</section>
+<section id="section-67" class="slide level2" data-background-color="white" data-background-image="images/USA.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu par les USA</p>
+</div>
+</section>
+<section id="section-68" class="slide level2" data-background-color="white" data-background-image="images/asia.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu d’Asie</p>
+</div>
+</section>
+<section id="section-69" class="slide level2" data-background-color="white" data-background-image="images/projautralie.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu d’Australie</p>
+</div>
+</section>
+<section id="section-70" class="slide level2" data-background-color="white" data-background-image="images/chn.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu de Chine</p>
+</div>
+</section>
+<section id="section-71" class="slide level2" data-background-color="white" data-background-image="images/polar.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Personne au centre</p>
+</div>
+</section>
+<section id="section-72" class="slide level2" data-background-color="white" data-background-image="images/logo-onu-970x823.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Personne au centre</p>
+</div>
+</section>
+<section id="section-73" class="slide level2" data-background-color="white" data-background-image="images/I.04.spilhauss.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Changer de perspective</p>
+</div>
+</section>
+<section id="section-74" class="slide level2" data-background-color="white" data-background-image="images/Australie.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Upside Down</p>
+</div>
+</section>
+<section id="section-75" class="slide level2" data-background-color="white" data-background-image="images/MSF-copyleft3.jpg" data-background-size="cover">
+<h2></h2>
+<div class="footer">
+<p>Changer de perspective</p>
+</div>
+</section>
+<section id="section-76" class="slide level2" data-background-color="white" data-background-image="images/westwing2.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Les cartes s’appuient bien souvent sur un maillage administratif</p>
+</div>
+</section>
+<section id="section-77" class="slide level2">
+<h2></h2>
+<div class="header">
+<p>Soit, une réalité géographique fictive. <br><br><img src="images/maillage1.png" style="border:none"> <br><img src="images/maillage2.png" style="border:none; width:400px"></p>
+</div>
+</section>
+<section id="section-78" class="slide level2">
+<h2></h2>
+<div class="header">
+<p>Mettons ces habitants dans différents maillages fictifs <br><br><img src="images/maillage3.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-79" class="slide level2">
+<h2></h2>
+<div class="header">
+<p>Les cartes produites sont différentes <br><br><img src="images/maillage3.png" style="border:none"> <br><img src="images/maillage4.png" style="border:none"> <br><img src="images/maillage5.png" style="border:none; width:400px"></p>
+</div>
+</section>
+<section id="section-80" class="slide level2">
+<h2></h2>
+<div class="header">
+<p>Les cartes produites sont différentes <br><br><img src="images/maillage3.png" style="border:none"> <br><img src="images/maillage4.png" style="border:none"> <br><img src="images/maillage6.png" style="border:none"></p>
+</div>
+</section>
+<section id="section-81" class="slide level2" data-background-color="white" data-background-image="images/trump1.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le maillage peut faire “mentir” les cartes</p>
+</div>
+</section>
+<section id="section-82" class="slide level2" data-background-color="white" data-background-image="images/trump4.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le maillage peut faire “mentir” les cartes</p>
+</div>
+</section>
+<section id="section-83" class="slide level2" data-background-color="white" data-background-image="images/worldphysical.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Les couleurs</p>
+</div>
+</section>
+<section id="section-84" class="slide level2" data-background-color="#B5B0B6" data-background-image="images/spectre.jpeg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Les couleurs</p>
+</div>
+</section>
+<section id="section-85" class="slide level2" data-background-color="white" data-background-image="images/colors.jpg" data-background-size="cover">
+<h2></h2>
+<div class="footer">
+<p>Les couleurs</p>
+</div>
+</section>
+<section id="section-86" class="slide level2" data-background-color="white" data-background-image="images/13S3XQ.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>le bleu : Couleur du ciel, universelle, consensus, sagesse, couleur discrète.</p>
+</div>
+</section>
+<section id="section-87" class="slide level2" data-background-color="white" data-background-image="images/ecolo.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le vert. Fertilité (en Europe), Islam (pour les musulmans), deuil (Asie), nature, couleur nationale irlandaise.</p>
+</div>
+</section>
+<section id="section-88" class="slide level2" data-background-color="white" data-background-image="images/1950-Cold-War-map.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le rouge c’est le feu, le sang, l’amour mais c’est aussi l’enfer. Le rouge attire l’œil, c’est la couleur du danger (dans la nature, ce qui est rouge est souvent venimeux ou vénéneux). En politique, le rouge, c’est aussi évidemment le communisme. Sur nombre de cartes historiques, l’URSS est représenté en rouge. Couleur orgueilleuse, de pouvoir et d’ambitions, insolente, violente, crimes et péchés lui sont associés. Mais en Inde, elle évoque la pureté.</p>
+</div>
+</section>
+<section id="section-89" class="slide level2" data-background-color="white" data-background-image="images/III.10.warbusiness.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le rouge c’est le feu, le sang, l’amour mais c’est aussi l’enfer. Le rouge attire l’œil, c’est la couleur du danger (dans la nature, ce qui est rouge est souvent venimeux ou vénéneux). En politique, le rouge, c’est aussi évidemment le communisme. Sur nombre de cartes historiques, l’URSS est représenté en rouge. Couleur orgueilleuse, de pouvoir et d’ambitions, insolente, violente, crimes et péchés lui sont associés. Mais en Inde, elle évoque la pureté.</p>
+</div>
+</section>
+<section id="section-90" class="slide level2" data-background-color="white" data-background-image="images/black.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le noir. Fascisme, anarchisme, extremisme, terrorisme, deuil</p>
+</div>
+</section>
+<section id="section-91" class="slide level2" data-background-color="white" data-background-image="images/Dupin.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Noir et blanc</p>
+</div>
+</section>
+<section id="section-92" class="slide level2" data-background-color="white" data-background-image="images/ezombie.jpeg" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-93" class="slide level2" data-background-color="white" data-background-image="images/taille1.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le choix de la bonne taille dépend de la lisibité mais aussi du message que l’on souhaite délivrer</p>
+</div>
+</section>
+<section id="section-94" class="slide level2" data-background-color="white" data-background-image="images/manif5dec_flop.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-95" class="slide level2" data-background-color="white" data-background-image="images/manif5dec_top.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-96" class="slide level2" data-background-color="white" data-background-size="contain" data-background-image="images/roms.png">
+<h2></h2>
+<div class="header">
+<p>Titre : ?</p>
+</div>
+</section>
+<section id="section-97" class="slide level2" data-background-color="white" data-background-size="contain" data-background-image="images/roms.png">
+<h2></h2>
+<div class="header">
+<p>Titre neutre :<br>Les Roms en Europe</p>
+</div>
+</section>
+<section id="section-98" class="slide level2" data-background-color="white" data-background-size="contain" data-background-image="images/roms.png">
+<h2></h2>
+<div class="header">
+<p>Titre raciste :<br>L’invasion Roms : le grand remplacement a commencé</p>
+</div>
+</section>
+<section id="section-99" class="slide level2" data-background-color="white" data-background-size="contain" data-background-image="images/roms.png">
+<h2></h2>
+<div class="header">
+<p>Titre original :<br>Les Roms, peuple européen</p>
+</div>
+</section></section>
+<section>
+<section id="section-100" class="title-slide slide level1 center">
+<h1></h1>
+<p>Méfiez-vous des cartes pas des migrants</p>
+</section>
+<section id="section-101" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/02.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-102" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/03.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-103" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/04.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-104" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/05.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-105" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/06.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-106" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/07.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-107" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/08.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-108" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/09.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-109" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/10.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-110" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/11.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-111" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/12.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-112" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/13.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-113" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/14.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-114" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/15.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-115" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/16.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-116" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/17.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-117" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/18.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-118" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/19.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-119" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/20.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-120" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/21.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-121" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/22.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-122" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/23.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-123" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/24.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-124" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/25.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-125" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/26.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-126" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/27.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-127" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/28.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-128" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/29.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-129" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/30.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-130" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/31.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-131" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/32.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-132" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/33.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-133" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/34.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-134" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/35.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-135" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/36.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-136" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/syriens/37.png" data-background-size="contain">
+<h2></h2>
+</section></section>
+<section>
+<section id="section-137" class="title-slide slide level1 center">
+<h1></h1>
+<p>En résumé</p>
+</section>
+<section id="section-138" class="slide level2" data-background-color="white" data-background-image="images/semiobertin.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Pas de bonne carte sans bonne sémio</p>
+</div>
+</section>
+<section id="section-139" class="slide level2" data-background-color="white" data-background-image="images/carte-territoire.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Mais dans ce cadre, les choix graphiques sont infinis.</p>
+</div>
+</section>
+<section id="section-140" class="slide level2" data-background-color="white" data-background-image="images/frontex.png" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu par Frontex</p>
+</div>
+</section>
+<section id="section-141" class="slide level2" data-background-color="white" data-background-image="images/roue.jpg" data-background-size="contain">
+<h2></h2>
+<div class="footer">
+<p>Le monde vu par Philippe “Reka”</p>
+</div>
+</section>
+<section id="section-142" class="slide level2" data-background-color="white" data-background-image="images/espritcritique.jpg" data-background-size="contain">
+<h2></h2>
+<p>Faites jouer votre esprit critique pour déméler ce qui relève du rationnel et de la rhétorique.</p>
+</section>
+<section id="section-143" class="slide level2" data-background-color="#5D5D5D" data-background-image="images/spiderman.jpg" data-background-size="contain">
+<h2></h2>
+</section></section>
+<section>
+<section id="présentation-de-lapplication-magrit" class="title-slide slide level1 center">
+<h1>2 - Présentation de l’application Magrit</h1>
+
+</section>
+<section id="la-genèse-du-projet-magrit" class="slide level2">
+<h2>La genèse du projet Magrit</h2>
+<p><br></p>
+<div class="medium">
+<div class="fragment">
+<ul>
+<li><strong>Contexte</strong> :
+<ul>
+<li>l’enseignement de la cartographie thématique à l’université</li>
+<li>la réalisation de cartes thématiques par un public non-expert (débutants, chercheurs dans d’autres disciplines que la géographie, etc.)</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Quels outils pour produire des cartes thématiques ? Quels outils pour enseigner la cartographie thématique ?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><em>PhilCarto</em>, <em>QGIS</em>, <em>InkScape</em> / <em>Adobe Illustrator</em> ?</li>
+</ul>
+</div>
+<div class="fragment">
+<p>➔ En 2016, pas d’outils <strong>simple</strong>, <strong>complet</strong> et <strong>multiplateforme</strong></p>
+</div>
+</div>
+</section>
+<section id="la-genèse-du-projet-magrit-1" class="slide level2">
+<h2>La genèse du projet Magrit</h2>
+<p><br></p>
+<div class="medium">
+<ul>
+<li><p>Projet financé par l’UAR RIATE sur fonds propres, initié en 2016</p></li>
+<li><p>Objectif : développer un outil de cartographie thématique simple d’utilisation, complet et utilisable sur tous les systèmes d’exploitation</p></li>
+<li><p>Conçu en équipe (Nicolas Lambert, Timothée Giraud, Ronan Ysebaert, Matthieu Viry) et développé par Matthieu Viry</p></li>
+</ul>
+</div>
+</section>
+<section id="un-outil-complet" class="slide level2">
+<h2>Un outil complet</h2>
+<center>
+<p><img data-src="images/magrit-complete-tool.png" class="w700"></p>
+</center>
+</section>
+<section id="un-logiciel-libre-et-gratuit" class="slide level2">
+<h2>Un logiciel libre et gratuit</h2>
+<p>Le projet Magrit a démarré courant 2016. C’est un projet libre, sous licence CeCILL (une licence compatible avec la licence GPL).</p>
+<p><img data-src="images/cecill.png" class="w300"></p>
+<p>Le code source est disponible sur GitHub : <a href="https://github.com/riatelab/magrit">https://github.com/riatelab/magrit</a>.</p>
+<p><img data-src="images/github-screenshot.png" class="w600"></p>
+</section>
+<section id="une-application-web" class="slide level2">
+<h2>Une application Web</h2>
+<p>Magrit est une application Web, c’est à dire qu’elle fonctionne <strong>directement dans un navigateur Web</strong> et donc avec n’importe quel système d’exploitation (Windows, MacOS, Linux, …).</p>
+<center>
+<img data-src="images/ui-and-browser-screenshot.png" class="w700">
+</center>
+</section>
+<section id="une-application-multilingue" class="slide level2">
+<h2>Une application multilingue</h2>
+<p><br></p>
+<p>Magrit est disponible en <strong>français</strong>, <strong>anglais</strong> et <strong>espagnol</strong> (Amérique latine).</p>
+<br>
+<center>
+<img data-src="images/magrit-multilang.png" class="w300 bordered">
+</center>
+</section>
+<section id="de-nombreux-formats-de-données-supportés-en-entrée" class="slide level2">
+<h2>De nombreux formats de données supportés en entrée</h2>
+<p><br></p>
+<div class="columns medium">
+<div class="column" style="width:50%;">
+<p>Magrit permet d’importer des <strong>données géographiques</strong> dans de nombreux formats :</p>
+<ul>
+<li><strong>GeoJSON</strong></li>
+<li><strong>TopoJSON</strong></li>
+<li><strong>Shapefile</strong></li>
+<li><strong>GML</strong></li>
+<li><strong>KML</strong></li>
+<li><strong>GeoPackage</strong></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p>Magrit permet également d’importer des <strong>données tabulaires</strong> (qui pourront être jointes à des données géographiques) :</p>
+<ul>
+<li><strong>CSV</strong> / <strong>TSV</strong></li>
+<li><strong>XLS</strong> et <strong>XLSX</strong></li>
+<li><strong>ODS</strong></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="la-chaîne-de-traitement" class="slide level2">
+<h2>La chaîne de traitement</h2>
+<p>Les menus de l’application suivent les étapes d’une chaine de traitement de l’information géographique :</p>
+<center>
+<p><img data-src="images/chaine-traitement-magrit.png" class="bordered w800"></p>
+</center>
+</section>
+<section id="différents-types-de-représentations-cartographiques" class="slide level2">
+<h2>Différents types de représentations cartographiques</h2>
+<center>
+<img src="images/Magrit-red-black-description.png" class="w900">
+</center>
+</section>
+<section id="des-représentations-cartographiques-classiques" class="slide level2">
+<h2>Des représentations cartographiques classiques</h2>
+<p><br></p>
+
+<img data-src="images/rep_class.png" class="w1000 r-stretch"></section>
+<section id="des-représentations-cartographiques-combinées" class="slide level2">
+<h2>Des représentations cartographiques combinées</h2>
+<p><br></p>
+
+<img data-src="images/rep_comb.png" class="w800 r-stretch"></section>
+<section id="des-représentations-cartographiques-avancées" class="slide level2">
+<h2>Des représentations cartographiques “avancées”</h2>
+<p><br></p>
+
+<img data-src="images/rep_av1.png" class="w800 r-stretch"></section>
+<section id="des-représentations-cartographiques-avancées-1" class="slide level2">
+<h2>Des représentations cartographiques “avancées”</h2>
+<p><br></p>
+<p><img data-src="images/rep_av2.png" class="w800"></p>
+<p><span class="fragment medium">Également “carte de liens”, “carte qualitative (pictogrammes)” et <em>“waffle map”</em> (2 variables de stocks ou plus)</span></p>
+<p><img src="images/waffle_fontaines.png" class="fragment w800" style="position:absolute; top: 20%; left: 0%;"></p>
+</section>
+<section id="mise-en-page" class="slide level2">
+<h2>Mise en page</h2>
+<center>
+<p><img data-src="images/mise-en-page.png" class="w800 bordered"></p>
+</center>
+</section>
+<section id="différents-types-dexports-disponibles" class="slide level2">
+<h2>Différents types d’exports disponibles</h2>
+<p><br></p>
+<p>Magrit permet d’exporter les cartes réalisées dans différents formats :</p>
+<ul>
+<li><strong>PNG</strong> (par ex. pour une utilisation directe dans un rapport ou une présentation)</li>
+<li><strong>SVG</strong> (par ex. pour permettre une édition ultérieure dans un logiciel de dessin vectoriel comme InkScape ou Adobe Illustrator)</li>
+</ul>
+<center>
+<img src="images/ExportModifInkscape.png" class="w500">
+</center>
+</section>
+<section id="différents-types-dexports-disponibles-1" class="slide level2">
+<h2>Différents types d’exports disponibles</h2>
+<p><br></p>
+<div class="medium">
+<p>Il est également possible d’exporter les couches présentes dans la carte dans différents formats :</p>
+<ul>
+<li><strong>GeoJSON</strong></li>
+<li><strong>TopoJSON</strong></li>
+<li><strong>Shapefile</strong></li>
+<li><strong>GML</strong></li>
+<li><strong>KML</strong></li>
+<li><strong>CSV</strong> (seulement les données attributaires)</li>
+</ul>
+<p><br> 💡 Utile par exemple pour réutiliser les couches issues de certaines modes de représentation (lissages, discontinuités, cartogrammes, etc.) dans un SIG.</p>
+</div>
+</section>
+<section id="utilisée-pour-lapprentissage-de-la-cartographie-thématique-à-luniversité" class="slide level2">
+<h2>Utilisée pour l’apprentissage de la cartographie thématique à l’université</h2>
+<p><br><br></p>
+<center>
+<p><img data-src="images/logo_univ.png" class="w900"></p>
+</center>
+</section>
+<section id="autour-de-magrit" class="slide level2">
+<h2>Autour de Magrit…</h2>
+<ul>
+<li>Magrit dispose d’une documentation complète en français : <a href="https://magrit.cnrs.fr/docs/">https://magrit.cnrs.fr/docs/</a>.</li>
+</ul>
+<p><img data-src="images/documentation-screenshot.png" class="absolute bordered" style="top: 200px; left: 200px; width: 780px; height: 609px; "></p>
+</section>
+<section id="autour-de-magrit-1" class="slide level2">
+<h2>Autour de Magrit…</h2>
+<ul>
+<li>Des supports de formations (comprenant slides de cours et exercices), préparés par l’<a href="https://riate.cnrs.fr">UAR RIATE</a>, sont mis à disposition sous licence CC-BY-SA : <a href="https://github.com/magrit-formations">https://github.com/magrit-formations</a>.</li>
+</ul>
+<div class="columns medium">
+<div class="column" style="width:50%;">
+<p><img data-src="images/formation-screenshot-repository.png" class="w400"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/formation-screenshot.png"></p>
+<p><span class="center small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exemple de support de formation ⤴</span></p>
+<p><span class="center small">⬅ Page d’accueil du dépôt des supports de formation</span></p>
+</div>
+</div>
+</section>
+<section id="autour-de-magrit-2" class="slide level2">
+<h2>Autour de Magrit…</h2>
+<ul>
+<li>Un carnet de recherche est également disponible sur la plateforme Hypotheses : <a href="https://magrit.hypotheses.org/">https://magrit.hypotheses.org/</a>.</li>
+</ul>
+<center>
+<p><img data-src="images/hypotheses.png" class="w800 bordered"></p>
+</center>
+</section>
+<section id="perspectives-de-développement" class="slide level2">
+<h2>Perspectives de développement</h2>
+<p><br></p>
+<p>Un logiciel en développement actif…</p>
+<p><br></p>
+<div class="medium">
+<ul>
+<li><p><strong>Amélioration / refonte de l’interface utilisateur</strong></p></li>
+<li><p>Intégration de <strong>nouvelles fonctionnalités</strong> (analyses statistiques bivariées ou multivariées, modification du jeu de données, personnalisation de nombreux éléments graphiques, etc.)</p></li>
+<li><p>Facilitation de l’<strong>installation sur un poste de travail personnel</strong></p></li>
+</ul>
+</div>
+<p><img src="images/linear-regression.png" class="bordered fragment w300" style="position:absolute;bottom: 10px; right: 610px" fragment-index="1"> <img src="images/linear-regression-residuals.png" class="bordered fragment w300" style="position:absolute;bottom: 30px; right: 340px" fragment-index="1"> <img src="images/tree-hc.png" class="bordered fragment w400" style="position:absolute;bottom: 60px; right: 10px" fragment-index="1"></p>
+</section></section>
+<section>
+<section id="exemple-dutilisation-de-magrit---démonstration" class="title-slide slide level1 center">
+<h1>3 - Exemple d’utilisation de Magrit <br> - <br> Démonstration</h1>
+
+</section>
+<section id="démonstration" class="slide level2">
+<h2>Démonstration</h2>
+<p><br></p>
+<p><em>Cette démonstration vise à présenter les principales fonctionnalités de Magrit, de la réalisation rapide d’une carte simple jusqu’à la réalisation d’une carte plus complexe, à la mise en page soignée.</em></p>
+<p><br></p>
+<center>
+<p><strong>🖥️ <a href="https://magrit.cnrs.fr/">https://magrit.cnrs.fr/</a></strong><br>
+<strong>🕜 Environ 15 minutes</strong></p>
+</center>
+<div class="medium">
+<p><br></p>
+<p><strong>Données utilisées&nbsp;:</strong></p>
+<ul>
+<li>Quartiers de la ville de Paris</li>
+<li>Données socio-démographiques issues du recensement de la population de 2016 (fichier tabulaire à joindre aux données géographiques)</li>
+<li>Communes du Grand Paris (pour l’habillage de la carte)</li>
+<li>Tracé de la Seine (pour l’habillage de la carte)</li>
+</ul>
+</div>
+</section>
+<section id="à-vous-de-jouer" class="slide level2">
+<h2>À vous de jouer !</h2>
+<p><br></p>
+<p>Pendant le temps restant, nous vous proposons de <strong>réaliser une carte thématique avec Magrit</strong>.</p>
+<p>Au choix&nbsp;:</p>
+<ul>
+<li>Si vous disposez de vos propres données, vous pouvez essayer de les utiliser pour réaliser une carte.</li>
+<li>Sinon, nous vous proposons de récupérer les données utilisées lors de la démonstration : <a href="">Mettre short url ici</a> et de réaliser une carte de xxx.</li>
+</ul>
+</section></section>
+<section id="merci-de-votre-attention" class="title-slide slide level1 center">
+<h1>Merci de votre attention ! 🙏</h1>
+<p><br></p>
+<p><strong>Application Magrit</strong> : <strong><a href="https://magrit.cnrs.fr/">https://magrit.cnrs.fr/</a></strong></p>
+<p><strong>Documentation</strong> : <a href="https://magrit.cnrs.fr/docs/">https://magrit.cnrs.fr/docs/</a></p>
+<p><strong>Dépôt GitHub</strong> : <a href="https://github.com/riatelab/magrit">https://github.com/riatelab/magrit</a></p>
+<p><strong>Supports de formation</strong> : <a href="https://github.com/magrit-formations">https://github.com/magrit-formations</a></p>
+<p><br></p>
+<p><strong>Slides</strong> : <a href="https://mthh.github.io/Magrit-presentation-USSEIN-2023/">https://mthh.github.io/Magrit-seminaire-TAIS-2024/</a></p>
+<p><br></p>
+<p><em><strong>Contact</strong> : <a href="mailto:nicolas.lambert@cnrs.fr">nicolas.lambert@cnrs.fr</a> et <a href="mailto:matthieu.viry@cnrs.fr">matthieu.viry@cnrs.fr</a></em></p>
+<p><a href="https://riate.cnrs.fr">UAR RIATE</a> - CNRS</p>
 
 <img src="images/logos-footer.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
