@@ -118,3 +118,11 @@ kbd {
 .grViz {
     overflow-y: hidden;
 }
+
+.reveal .footer > p {
+background-color:white;
+opacity: 0.9;
+margin:-18px;
+padding:18px 150px 18px 150px;
+}
+
