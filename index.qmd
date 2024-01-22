@@ -1096,7 +1096,7 @@ Pendant le temps restant, nous vous proposons de **réaliser une carte thématiq
 Au choix :
 
 - Si vous disposez de **vos propres données**, nous vous proposons de les utiliser pour réaliser une carte.
-- Sinon, nous vous proposons de récupérer **les données utilisées lors de la démonstration** : [https://s.42l.fr/magrit-data](https://s.42l.fr/magrit-data)
+- Sinon, nous vous proposons de récupérer **les données utilisées lors de la démonstration** : [https://s.42l.fr/data-magrit](https://s.42l.fr/data-magrit)
   et de réaliser les principaux types de cartes : *choroplèthe, symboles proportionnels, etc.* (il vous sera d'abords nécessaire de décompresser l'archive sur votre poste).
   
 
