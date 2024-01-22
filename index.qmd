@@ -759,7 +759,7 @@ Faites jouer votre esprit critique pour démêler ce qui relève du rationnel et
 
 ##  { background-color="#5D5D5D" background-image="images/spiderman.jpg" background-size="contain"}
 
-# 2 - Présentation de l'application Magrit
+# 2 <br /> Présentation de l'application Magrit
 
 ## La genèse du projet Magrit
 
@@ -792,6 +792,7 @@ Faites jouer votre esprit critique pour démêler ce qui relève du rationnel et
 ## La genèse du projet Magrit
 
 <br />
+<br />
 
 :::{.medium}
 
@@ -819,13 +820,13 @@ Faites jouer votre esprit critique pour démêler ce qui relève du rationnel et
 
 ## Un logiciel libre et gratuit
 
-Le projet Magrit a démarré courant 2016. C'est un projet libre, sous licence CeCILL (une licence compatible avec la licence GPL).
+Projet libre, sous licence CeCILL (une licence compatible avec la licence GPL).
 
 ![](images/cecill.png){.w300}
 
 Le code source est disponible sur GitHub : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit).
 
-![](images/github-screenshot.png){.w600}
+![](images/github-screenshot.png){.w700}
 
 
 ## Une application Web
@@ -1013,13 +1014,32 @@ Il est également possible d'exporter les couches présentes dans la carte dans 
 
 </center>
 
-## Perspectives de développement <br /> (aka "Magrit 2.0")
+## Perspectives de développement <br /> *(aka "Magrit 2.0")*
 
 :::{.medium}
 
 <br />
 
-Actuellement dans une phase de développement actif, Magrit va connaître dans les prochains mois une **évolution majeure** :
+Magrit va connaître dans les prochains mois une **évolution majeure** :
+
+- **Amélioration / refonte de l'interface utilisateur**
+
+- Intégration de **nouvelles fonctionnalités** (analyses statistiques bivariées ou multivariées, modification du jeu de données, personnalisation de nombreux éléments graphiques, etc.)
+
+:::
+
+<img src="images/linear-regression.png" class="bordered fragment w400" style="position:absolute;bottom: 0px; right: 630px" />
+<img src="images/linear-regression-residuals.png" class="bordered fragment w400" style="position:absolute;bottom: 20px; right: 360px" />
+<img src="images/tree-hc.png" class="bordered fragment w500" style="position:absolute;bottom: 40px; right: -5px" />
+<img src="images/legendes.png" class="fragment w400" style="position:absolute;bottom: 0; left: 10px" />
+
+## Perspectives de développement <br /> *(aka "Magrit 2.0")*
+
+:::{.medium}
+
+<br />
+
+Magrit va connaître dans les prochains mois une **évolution majeure** :
 
 - **Amélioration / refonte de l'interface utilisateur**
 
@@ -1031,13 +1051,11 @@ Actuellement dans une phase de développement actif, Magrit va connaître dans l
 
 :::
 
-<img src="images/linear-regression.png" class="bordered fragment w300" style="position:absolute;bottom: 0px; right: 630px" fragment-index=1>
-<img src="images/linear-regression-residuals.png" class="bordered fragment w300" style="position:absolute;bottom: 20px; right: 360px" fragment-index=1>
-<img src="images/tree-hc.png" class="bordered fragment w400" style="position:absolute;bottom: 40px; right: -5px" fragment-index=1>
+<img src="images/linear-regression.png" class="bordered w300" style="position:absolute;bottom: 0px; right: 630px" />
+<img src="images/linear-regression-residuals.png" class="bordered w300" style="position:absolute;bottom: 20px; right: 360px" />
+<img src="images/tree-hc.png" class="bordered w400" style="position:absolute;bottom: 40px; right: -5px" />
 
-
-
-# Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
+# 3 <br /> Exemple d'utilisation de Magrit <br /> Démonstration
 
 ## Démonstration
 
@@ -1050,7 +1068,7 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 
 <center>
 
-**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)** - **🕜 Environ 15 minutes**
+**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)** - **🕜 Environ 20 minutes**
 
 </center>
 
@@ -1060,8 +1078,8 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 
 **Données utilisées :**
 
-- Quartiers de la ville de Paris
-- Données socio-démographiques issues du recensement de la population de 2016 (fichier tabulaire à joindre aux données géographiques)
+- Quartiers administratifs de la ville de Paris
+- Données de logement 2015 à l'IRIS, agrégées par quartier (fichier tabulaire à joindre aux données géographiques)
 - Communes du Grand Paris (pour l'habillage de la carte)
 - Tracé de la Seine (pour l'habillage de la carte)
 
@@ -1077,10 +1095,10 @@ Pendant le temps restant, nous vous proposons de **réaliser une carte thématiq
 
 Au choix :
 
-- Si vous disposez de vos propres données, vous pouvez essayer de les utiliser pour réaliser une carte.
-- Sinon, nous vous proposons de récupérer les données utilisées lors de la démonstration : [Mettre short url ici]()
-  et de réaliser une carte de xxx.
-
+- Si vous disposez de **vos propres données**, nous vous proposons de les utiliser pour réaliser une carte.
+- Sinon, nous vous proposons de récupérer **les données utilisées lors de la démonstration** : [https://s.42l.fr/magrit-data](https://s.42l.fr/magrit-data)
+  et de réaliser les principaux types de cartes : *choroplèthe, symboles proportionnels, etc.* (il vous sera d'abords nécessaire de décompresser l'archive sur votre poste).
+  
 
 # Merci de votre attention ! 🙏
 
